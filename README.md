@@ -8,7 +8,31 @@ Este proyecto es un microservicio de autenticación utilizando JSON Web Tokens (
 - Node.js (versión 12 o superior)
 - npm (versión 6 o superior)
 
-## Instalación
+## Instalación con Docker-compose
+
+1. Asegúrate de tener Docker instalado en tu máquina. Puedes descargarlo desde [Docker](https://www.docker.com/get-started).
+
+2. Clona este repositorio en tu máquina local:
+
+```sh
+git clone https://github.com/tu-usuario/microservicio-auth.git
+cd microservicio-auth
+```
+
+3. Para iniciar el proyecto con docker-compose corremos los siguientes comandos.
+
+```
+docker-compose build
+docker-compose up
+```
+
+4. Para detener el contenedor creado usamos el comando
+```
+docker-compose down
+```
+
+
+## Instalación con Node.js
 
 ### Paso 1: Configurar MongoDB con Docker
 
